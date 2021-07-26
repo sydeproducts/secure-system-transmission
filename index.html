@@ -12,23 +12,71 @@
     <title>secure-system-transmission</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min2.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-host-cloud.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/templatemo-art-factory2.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel2.css">
 		
-		
-	<link rel="stylesheet" type="text/css" href="assets/css header/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/css header/font-awesome.css">
-	<link rel="stylesheet" href="assets/css header/templatemo-softy-pinko.css">
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <style>			
 
-body1 {margin:0;font-family:Arial}
+body1 {margin:0;font-family: Arial
+	}
 
+
+.dropbtn {
+  background: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+	margin-bottom: -10px;
+	margin-top: -7px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: left;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #232323;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: none;
+}
+	
       .unselectable {
         -webkit-user-select: none;
         -webkit-touch-callout: none;
@@ -47,10 +95,37 @@ https://templatemo.com/tm-541-host-cloud
   </head>
 
   <body div class="unselectable">
+	  <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="#" class="logo">SP-One</a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#welcome" class="#">Home</a></li>
+							<div class="dropdown">
+									  <button class="dropbtn">About
+											<i class="fa fa-caret-down"></i>
+								      </button>
+									  	<div class="dropdown-content">
+									    	<a href="https://syde.co/greeting/">Greeting</a>
+											<a href="https://syde.co/sydeco-company-profile/">Company Profile</a>
+											<a href="https://syde.co/company-values/">Company Values</a>
+											<a href="https://syde.co/code-of-conduts/">Code of Conduct</a>
+									    </div>
+								</div>
+                            <li class="scroll-to-section"><a href="#contact-us">Contact Us</a></li>
+						</ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	  <script language=JavaScript>
-<!--
-
 //Disable right mouse click Script
 //By Geek Site.in
 
@@ -88,48 +163,7 @@ document.oncontextmenu=new Function("alert(message);return false")
 </script>
 	  
     <!-- Header -->
-<header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                           <img src="assets/images/Logo SST biru 2 trans.png" height="50">
-                          </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#" class="menu-item">Home</a></li>
-							<li class="submenu">
-                                <a href="javascript:;">About</a>
-                                <ul>
-                                    <li><a href="https://syde.co/greeting/">Greeting</a></li>
-                                    <li><a href="https://syde.co/sydeco-company-profile/">Company Profile</a></li>
-                                    <li><a href="https://syde.co/company-values/">Company Values</a></li>
-                                    <li><a href="https://syde.co/code-of-conduts/">Code of Conduct</a></li>
-                                </ul>
-                            <li class="scroll-to-section"><a href="contact.html" class="menu-item">Contact Us</a></li>
-							
-							<div id="google_translate_element"></div>
-							<script type="text/javascript">
-							function googleTranslateElementInit() {
-							  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-							}
-							</script>
 
-							<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-													
-						
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
 		  
     <!-- Page Content -->
     <!-- Banner Starts Here -->
