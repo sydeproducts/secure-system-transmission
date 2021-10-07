@@ -85,9 +85,18 @@ https://templatemo.com/tm-548-training-studio
 }
 	
 
+.unselectable {
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+}
+	
+
 	</style>
     </head>
-    <body>
+    <body div class="unselectable">
     
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -124,7 +133,16 @@ https://templatemo.com/tm-548-training-studio
 										<a href="https://syde.co/sydecloud/">SydeCloud</a>	
 									</div>
 							</div>
-                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li> 
+                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li>
+							
+							<div id="google_translate_element"></div>
+							<script type="text/javascript">
+							function googleTranslateElementInit() {
+							  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+							}
+							</script>
+
+							<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
                         </ul>
                         <!-- ***** Menu End ***** -->
                     </nav>
@@ -134,6 +152,46 @@ https://templatemo.com/tm-548-training-studio
     </header>
     <!-- ***** Header Area End ***** -->
 
+		
+		<script language=JavaScript>
+//Disable right mouse click Script
+//By Geek Site.in
+
+
+var message="Right Click Disabled!";
+
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+// --> 
+</script>
+		
+		
+		
     <!-- ***** Main Banner Area Start ***** -->
     <div class="main-banner" id="top">
         <video autoplay muted loop id="bg-video">
