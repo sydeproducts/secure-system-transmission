@@ -1,527 +1,798 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+            rel="stylesheet"
+        />
 
-  <head>
+        <link rel="icon" href="assets/images/IconSSTQuantum.png" />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
-	  
-  	<link rel="icon" href="assets/images/IconSSTQuantum.png">
-
-    <title>SST-Secure System Transmission</title>
-<!--
+        <title>SST-Secure System Transmission</title>
+        <!--
 
 TemplateMo 548 Training Studio
 
 https://templatemo.com/tm-548-training-studio
 
 -->
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <!-- Additional CSS Files -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="assets/css/bootstrap.min.css"
+        />
 
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="assets/css/font-awesome.css"
+        />
 
-    <link rel="stylesheet" href="assets/css/templatemo-training-studio.css">
-	
-	  
-<style>
-	
-.dropbtn {
-  background-color: transparent;
-  font-style: bold;
-  color: #FF9600;
-  text-transform: uppercase;
-  font-weight: 800;
-  padding: 10px 20px;
-  font-size: 13px;
-  border: none;
-  cursor: pointer;
-}
+        <link
+            rel="stylesheet"
+            href="assets/css/templatemo-training-studio.css"
+        />
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+        <style>
+            .dropbtn {
+                background-color: transparent;
+                font-style: bold;
+                color: #ff9600;
+                text-transform: uppercase;
+                font-weight: 800;
+                padding: 10px 20px;
+                font-size: 13px;
+                border: none;
+                cursor: pointer;
+            }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-		  
-.dropdown-content {			  
-  background-color: #fff;
-  opacity: 50%;
-}
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
 
-.dropdown-content a {
-  color: #000;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-style: normal;
-  display: block;
-}
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
 
-.dropdown-content a:hover {
-	background-color:#043257;
-	opacity: 80%;
-}
+            .dropdown-content {
+                background-color: #fff;
+                opacity: 50%;
+            }
 
-.dropdown-content a:hover {
-	color: aliceblue;
-}
+            .dropdown-content a {
+                color: #000;
+                padding: 15px 16px;
+                text-decoration: none;
+                font-style: normal;
+                display: block;
+            }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+            .dropdown-content a:hover {
+                background-color: #043257;
+                opacity: 80%;
+            }
 
-.dropdown:hover .dropbtn {
-  background-color: transparent;
-}
-	
+            .dropdown-content a:hover {
+                color: aliceblue;
+            }
 
-.unselectable {
-        -webkit-user-select: none;
-        -webkit-touch-callout: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-}
-	
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
 
-	</style>
+            .dropdown:hover .dropbtn {
+                background-color: transparent;
+            }
+
+            .unselectable {
+                -webkit-user-select: none;
+                -webkit-touch-callout: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        </style>
     </head>
     <body div class="unselectable">
-    
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="/" class="logo">SECURE SYSTEM<em> TRANSMISSION</em></a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="/">Home</a></li>
-							<div class="dropdown">
-							  <li class="scroll-to-section">
-								<button class="dropbtn">ABOUT <i class="fal fa-angle-down"></i></button>
-								</li>
-							  <div class="dropdown-content">
-								  <a href="About/About-Greeting/About-Greeting.html">Greeting</a>
-								  <a href="About/About-Company-Profile/About-Company-Profile.html">Company Profile</a>
-								  <a href="About/About-Company-Values/About-Company-Values.html">Company Values</a>
-								  <a href="About/About-Code-of-Conduct/About-Code-of-Conduct.html">Code of Conduct</a>
-								  <a href="TermsofUse.html">Terms Of Use</a>
-							  </div>
-							</div>
-							<div class="dropdown">
-								<button class="dropbtn">PRODUCTS <i class="fal fa-angle-down"></i></button>
-									<div class="dropdown-content">
-										<a href="https://syde.co/">All-In-One</a>
-									    <a href="https://sp-one.co/">SP-One</a>
-										<a href="https://secure-system-transmission.com/">SST</a>
-										<a href="https://the-archangel.co/">Archangel</a>
-										<a href="https://sydechat.com/">SydeChat</a>
-										<a href="https://syde.co/sydecloud/">SydeCloud</a>	
-									</div>
-							</div>
-							<div class="dropdown">
-								<button class="dropbtn">Blog <i class="fal fa-angle-down"></i></button>
-									<div class="dropdown-content">
-										<a href="https://sydeconewsblog.blogspot.com/">Blooger</a>
-									    <a href="blog/Hal-01.html">Artikel</a>
-									</div>
-							</div>
-                            <li class="scroll-to-section"><a href="#contact-us">Contact</a></li>
-							
-							<div id="google_translate_element"></div>
-							<script type="text/javascript">
-							function googleTranslateElementInit() {
-							  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-							}
-							</script>
-
-							<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-                        </ul>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-		
-		<script language=JavaScript>
-//Disable right mouse click Script
-//By Geek Site.in
-
-
-var message="Right Click Disabled!";
-
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-
-document.oncontextmenu=new Function("alert(message);return false")
-
-// --> 
-</script>
-		
-		
-		
-    <!-- ***** Main Banner Area Start ***** -->
-    <div class="main-banner" id="top">
-        <video autoplay muted loop id="bg-video">
-            <source src="assets/images/gym-video.mp4" type="video/mp4" />
-        </video>
-
-        <div class="video-overlay header-text">
-            <div class="caption">
-                <h2>SST</h2>
-                <h6>TOTAL PROTECTION OF DATA TRANSMISSION</h6>
-				<img src="assets/images/sydeco_logo thok-01.png" height="auto" width="10%" alt="images">
-            </div>
-        </div>
-    </div>
-    <!-- ***** Main Banner Area End ***** -->
-		
-		
-		<!-- Trusted Starts Here -->
-    <div class="trusted-section" align="center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-xl-3">
-            <div class="trusted-section-heading">
-				<img src="assets/images/img-01.png" alt="image" height="250">
-				<br><span><strong>Total Global Protection</strong>
-				</span>
-            </div>
-          </div>
-			<div class="col-md-12 col-xl-3">
-            <div class="trusted-section-heading">
-				<img src="assets/images/img-02.png" alt="image" height="250">
-				<br><span><strong>Inteligent Agent</strong>
-				</span>
-            </div>
-          </div>
-			<div class="col-md-12 col-xl-3">
-            <div class="trusted-section-heading">
-				<img src="assets/images/img-03.png" alt="image" height="250">
-				<br><span><strong>Implementation</strong>
-				</span>
-            </div>
-          </div>
-			<div class="col-md-12 col-xl-3">
-            <div class="trusted-section-heading">
-				<img src="assets/images/img-04.png" alt="image" height="250">
-				<br><span><strong>Post Quantum Encryption Method QUANTUM SAFE CRYPTOGRAPHY</strong>
-				</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Trusted Ends Here -->
-
-    <!-- ***** Features Item Start ***** -->
-    <section class="section" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 offset-xl-0 col-xl-12">
-                    <div class="section-heading">
-                        <h2>SST© <em>(Secure System of Transmission)</em></h2>
-                        <img src="assets/images/line-dec.png" alt="waves">
-                        <p text align="justify">is a revolutionary system of protection of data, of whatever nature, by their translation into an unknown language created by a brain and written in form that is not using any known characters, a language which we call ALIEN and which knows no written character. </p>
-						<p text align="justify">
-						SST© is based on Artificial Intelligence,
-						Unlike existing systems that protect data by encryption, SST© DOES NOT USE ANY KEYS. 
-						The brain creates an unlimited number of languages which it randomly distributes to Intelligent Agents, each Intelligent Agent knowing only one language for translation and another language for the writing.
-						<br>
-						</p>
-						<p text align="justify">An alien language is ever used by only one Intelligent Agent.</p>
-						<p text align="justify">There are as many Intelligent Agents as there are users.</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-12">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/tabs-first-icon.png" width="50%" height="auto" alt="First One">
-                            </div>
-                            <div class="right-content">
-                                <h2>SST POST QUANTUM ENCRYPTION METHOD</h2>
-								<p text align="justify">
-                                <br>Because the SST encryption method uses no keys and does not rely on mathematical operations or number factoring, a quantum computer cannot break the protection it offers to data.
-								<br>
-								<br>
-								The <strong>SST post-quantum encryption method</strong> applied to protect your data keeps it safe in a <strong>quantum world.</strong>
-								<br>
-								<br>
-								The SST post-quantum encryption method is a <strong> QUANTUM SAFE CRYPTOGRAPHY.</strong>
-								</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Item End ***** -->
-
-     
-    <!-- Pricing Starts Here -->
-    <div class="pricing-section" align="center">
-      <div class="background-image-pricing">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 offset-md-2">
-            <div class="section-heading">
-				<h2>The SECURITY OF THE DATA </h2>
-              <p>is triple, as it is realized by its:</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-item">
-              <div class="left-image">
-				  <img src="assets/images/translate-app.png" alt="image" height="150">
-				  <p text align="justify"><strong>Translation into a non-existent language and</strong></p>
-				  <br>
-				  <br>
-				  <br>
-				  <br>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-item">
-              <div class="left-image">
-                <img src="assets/images/06fbc778ab2c2c87db3a7dfff555915e.png" alt="image" height="150">
-				  <p text align="justify"><strong>Writing in the form that is not using any known characters created by the use of a second non-existent language,languages that are created by the brain in a totally random way</strong></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="pricing-item">
-				<img src="assets/images/29247a536a10f8e38fcbe07cf0015241.png" alt="image" height="150">
-				<br>
-              <p text align="justify"><strong>Fading of the writing if someone who is not the authorized person attempts to read them.</strong></p>
-				<br>
-				<br>
-				<br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    <!-- Pricing Ends Here -->
-
-    <!-- ***** Features Item Start ***** -->
-    <section class="section" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-						<h2>THE</h2>
-                        <h2>SECURITY OF THE DATA IN <em>MOVEMENT</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>is fourfold in that they:</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/icon 1.png" alt="First One">
-                            </div>
-                            <div class="right-content">
-                                <h4>Are translated into an unknown language</h4>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/icon 2.png" alt="second one">
-                            </div>
-                            <div class="right-content">
-                                <h4>Fade away if someone tries to intercept them or if they reach a wrong destination and</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6">
-                    <ul class="features-items">
-                        <li class="feature-item">
-                            <div class="left-icon">
-
-                                <img src="assets/images/icon 3.png" alt="fourth muscle">
-                            </div>
-                            <div class="right-content">
-                                <h4>Are written with unknown characters using another unknown language</h4>
-                            </div>
-                        </li>
-                        <li class="feature-item">
-                            <div class="left-icon">
-                                <img src="assets/images/icon4.png" alt="training fifth">
-                            </div>
-                            <div class="right-content">
-                                <h4>Are carried within a VPN that is itself protected by the SST© system.</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-				<p text align="center">For DATA in movement, it is the brain - which can be in the user's home - that receives the data sent to it by an Intelligent Agent, translates it into the translation and writing languages known by the recipient's Intelligent Agent and sends it to him.</p>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Item End ***** -->
-    
-    <section class="section" id="schedule" align="center">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-12 col-xl-12">
-                    <div class="section-heading dark-bg">
-                        <h2>SST <em>Secure System Transmission</em></h2>
-                        <img src="assets/images/line-dec.png" alt="">
-                        <p>For DATA in movement, it is the brain - which can be in the user's home - that receives the data sent to it by an Intelligent Agent, translates it into the translation and writing languages known by the recipient's Intelligent Agent and sends it to him.</p>
-                    </div>
-                </div>
-            </div>
+        <!-- ***** Header Area Start ***** -->
+        <header class="header-area header-sticky">
             <div class="container">
-				<div class="row">
-				  <div class="col-md-12 col-xl-4">
-					<div class="trusted-section-heading">
-						<img src="assets/images/01 icon.png" alt="image" height="200">
-						<h5><font color="#FCFCFC"><strong>Total Global Protection</strong></font></h5>
-					</div>
-				  </div>
-					<div class="col-md-12 col-xl-4">
-					<div class="trusted-section-heading">
-						<img src="assets/images/02 icon.png" alt="image" height="200">
-						<h5><font color="#FCFCFC"><strong>Protects all Passwords</strong></font></h5>
-					</div>
-				  </div>
-					<div class="col-md-12 col-xl-4">
-					<div class="trusted-section-heading">
-						<img src="assets/images/03 icon.png" alt="image" height="200">
-						<h5><font color="#FCFCFC"><strong>Can seal all transaction</strong></font></h5>
-					</div>
-				  </div>
-					<div class="col-md-12 col-xl-6">
-					<div class="trusted-section-heading">
-						<img src="assets/images/04 icon.png" alt="image" height="200">
-						<h5><font color="#FCFCFC"><strong>When used for a messaging service, makes it E2E</strong></font></h5>
-					</div>
-				  </div>
-					<div class="col-md-12 col-xl-6">
-					<div class="trusted-section-heading">
-						<img src="assets/images/05 icon.png" alt="image" height="200">
-						<h5><font color="#FCFCFC"><strong>Protects the content of telephone conversations or video calls in the same way</strong></font></h5>
-					</div>
-				  </div>
-				</div>
-			  </div>
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="main-nav">
+                            <!-- ***** Logo Start ***** -->
+                            <a href="/" class="logo"
+                                >SECURE SYSTEM<em> TRANSMISSION</em></a
+                            >
+                            <!-- ***** Logo End ***** -->
+                            <!-- ***** Menu Start ***** -->
+                            <ul class="nav">
+                                <li class="scroll-to-section">
+                                    <a href="/">Home</a>
+                                </li>
+                                <div class="dropdown">
+                                    <li class="scroll-to-section">
+                                        <button class="dropbtn">
+                                            ABOUT
+                                            <i class="fal fa-angle-down"></i>
+                                        </button>
+                                    </li>
+                                    <div class="dropdown-content">
+                                        <a
+                                            href="About/About-Greeting/About-Greeting.html"
+                                            >Greeting</a
+                                        >
+                                        <a
+                                            href="About/About-Company-Profile/About-Company-Profile.html"
+                                            >Company Profile</a
+                                        >
+                                        <a
+                                            href="About/About-Company-Values/About-Company-Values.html"
+                                            >Company Values</a
+                                        >
+                                        <a
+                                            href="About/About-Code-of-Conduct/About-Code-of-Conduct.html"
+                                            >Code of Conduct</a
+                                        >
+                                        <a href="TermsofUse.html"
+                                            >Terms Of Use</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">
+                                        PRODUCTS
+                                        <i class="fal fa-angle-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a href="../../products/syde-co/"
+                                            >All-In-One</a
+                                        >
+                                        <a href="https://sp-one.co/">SP-One</a>
+                                        <a
+                                            href="https://secure-system-transmission.com/"
+                                            >SST</a
+                                        >
+                                        <a href="https://the-archangel.co/"
+                                            >Archangel</a
+                                        >
+                                        <a href="https://sydechat.com/"
+                                            >SydeChat</a
+                                        >
+                                        <a
+                                            href="../../products/syde-co/sydecloud/"
+                                            >SydeCloud</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="dropdown">
+                                    <button class="dropbtn">
+                                        Blog <i class="fal fa-angle-down"></i>
+                                    </button>
+                                    <div class="dropdown-content">
+                                        <a
+                                            href="https://sydeconewsblog.blogspot.com/"
+                                            >Blooger</a
+                                        >
+                                        <a href="blog/Hal-01.html">Artikel</a>
+                                    </div>
+                                </div>
+                                <li class="scroll-to-section">
+                                    <a href="#contact-us">Contact</a>
+                                </li>
+
+                                <div id="google_translate_element"></div>
+                                <script type="text/javascript">
+                                    function googleTranslateElementInit() {
+                                        new google.translate.TranslateElement(
+                                            { pageLanguage: "en" },
+                                            "google_translate_element"
+                                        );
+                                    }
+                                </script>
+
+                                <script
+                                    type="text/javascript"
+                                    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+                                ></script>
+                            </ul>
+                            <!-- ***** Menu End ***** -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- ***** Header Area End ***** -->
+
+        <script language="JavaScript">
+            //Disable right mouse click Script
+            //By Geek Site.in
+
+            var message = "Right Click Disabled!";
+
+            ///////////////////////////////////
+            function clickIE4() {
+                if (event.button == 2) {
+                    alert(message);
+                    return false;
+                }
+            }
+
+            function clickNS4(e) {
+                if (
+                    document.layers ||
+                    (document.getElementById && !document.all)
+                ) {
+                    if (e.which == 2 || e.which == 3) {
+                        alert(message);
+                        return false;
+                    }
+                }
+            }
+
+            if (document.layers) {
+                document.captureEvents(Event.MOUSEDOWN);
+                document.onmousedown = clickNS4;
+            } else if (document.all && !document.getElementById) {
+                document.onmousedown = clickIE4;
+            }
+
+            document.oncontextmenu = new Function(
+                "alert(message);return false"
+            );
+
+            // -->
+        </script>
+
+        <!-- ***** Main Banner Area Start ***** -->
+        <div class="main-banner" id="top">
+            <video autoplay muted loop id="bg-video">
+                <source src="assets/images/gym-video.mp4" type="video/mp4" />
+            </video>
+
+            <div class="video-overlay header-text">
+                <div class="caption">
+                    <h2>SST</h2>
+                    <h6>TOTAL PROTECTION OF DATA TRANSMISSION</h6>
+                    <img
+                        src="assets/images/sydeco_logo thok-01.png"
+                        height="auto"
+                        width="10%"
+                        alt="images"
+                    />
+                </div>
+            </div>
         </div>
-    </section>
-    
-    <!-- ***** Contact Us Area Starts ***** -->
-    <section class="section" id="contact-us">
-        <div class="container-fluid">
-            <div class="row">
+        <!-- ***** Main Banner Area End ***** -->
+
+        <!-- Trusted Starts Here -->
+        <div class="trusted-section" align="center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-xl-3">
+                        <div class="trusted-section-heading">
+                            <img
+                                src="assets/images/img-01.png"
+                                alt="image"
+                                height="250"
+                            />
+                            <br /><span
+                                ><strong>Total Global Protection</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-3">
+                        <div class="trusted-section-heading">
+                            <img
+                                src="assets/images/img-02.png"
+                                alt="image"
+                                height="250"
+                            />
+                            <br /><span
+                                ><strong>Inteligent Agent</strong>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-3">
+                        <div class="trusted-section-heading">
+                            <img
+                                src="assets/images/img-03.png"
+                                alt="image"
+                                height="250"
+                            />
+                            <br /><span><strong>Implementation</strong> </span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-xl-3">
+                        <div class="trusted-section-heading">
+                            <img
+                                src="assets/images/img-04.png"
+                                alt="image"
+                                height="250"
+                            />
+                            <br /><span
+                                ><strong
+                                    >Post Quantum Encryption Method QUANTUM SAFE
+                                    CRYPTOGRAPHY</strong
+                                >
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Trusted Ends Here -->
+
+        <!-- ***** Features Item Start ***** -->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 offset-xl-0 col-xl-12">
+                        <div class="section-heading">
+                            <h2>
+                                SST© <em>(Secure System of Transmission)</em>
+                            </h2>
+                            <img src="assets/images/line-dec.png" alt="waves" />
+                            <p text align="justify">
+                                is a revolutionary system of protection of data,
+                                of whatever nature, by their translation into an
+                                unknown language created by a brain and written
+                                in form that is not using any known characters,
+                                a language which we call ALIEN and which knows
+                                no written character.
+                            </p>
+                            <p text align="justify">
+                                SST© is based on Artificial Intelligence, Unlike
+                                existing systems that protect data by
+                                encryption, SST© DOES NOT USE ANY KEYS. The
+                                brain creates an unlimited number of languages
+                                which it randomly distributes to Intelligent
+                                Agents, each Intelligent Agent knowing only one
+                                language for translation and another language
+                                for the writing.
+                                <br />
+                            </p>
+                            <p text align="justify">
+                                An alien language is ever used by only one
+                                Intelligent Agent.
+                            </p>
+                            <p text align="justify">
+                                There are as many Intelligent Agents as there
+                                are users.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-12">
+                        <ul class="features-items">
+                            <li class="feature-item">
+                                <div class="left-icon">
+                                    <img
+                                        src="assets/images/tabs-first-icon.png"
+                                        width="50%"
+                                        height="auto"
+                                        alt="First One"
+                                    />
+                                </div>
+                                <div class="right-content">
+                                    <h2>SST POST QUANTUM ENCRYPTION METHOD</h2>
+                                    <p text align="justify">
+                                        <br />Because the SST encryption method
+                                        uses no keys and does not rely on
+                                        mathematical operations or number
+                                        factoring, a quantum computer cannot
+                                        break the protection it offers to data.
+                                        <br />
+                                        <br />
+                                        The
+                                        <strong
+                                            >SST post-quantum encryption
+                                            method</strong
+                                        >
+                                        applied to protect your data keeps it
+                                        safe in a
+                                        <strong>quantum world.</strong>
+                                        <br />
+                                        <br />
+                                        The SST post-quantum encryption method
+                                        is a
+                                        <strong>
+                                            QUANTUM SAFE CRYPTOGRAPHY.</strong
+                                        >
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Item End ***** -->
+
+        <!-- Pricing Starts Here -->
+        <div class="pricing-section" align="center">
+            <div class="background-image-pricing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="section-heading">
+                                <h2>The SECURITY OF THE DATA</h2>
+                                <p>is triple, as it is realized by its:</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-item">
+                                <div class="left-image">
+                                    <img
+                                        src="assets/images/translate-app.png"
+                                        alt="image"
+                                        height="150"
+                                    />
+                                    <p text align="justify">
+                                        <strong
+                                            >Translation into a non-existent
+                                            language and</strong
+                                        >
+                                    </p>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-item">
+                                <div class="left-image">
+                                    <img
+                                        src="assets/images/06fbc778ab2c2c87db3a7dfff555915e.png"
+                                        alt="image"
+                                        height="150"
+                                    />
+                                    <p text align="justify">
+                                        <strong
+                                            >Writing in the form that is not
+                                            using any known characters created
+                                            by the use of a second non-existent
+                                            language,languages that are created
+                                            by the brain in a totally random
+                                            way</strong
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="pricing-item">
+                                <img
+                                    src="assets/images/29247a536a10f8e38fcbe07cf0015241.png"
+                                    alt="image"
+                                    height="150"
+                                />
+                                <br />
+                                <p text align="justify">
+                                    <strong
+                                        >Fading of the writing if someone who is
+                                        not the authorized person attempts to
+                                        read them.</strong
+                                    >
+                                </p>
+                                <br />
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing Ends Here -->
+
+        <!-- ***** Features Item Start ***** -->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="section-heading">
+                            <h2>THE</h2>
+                            <h2>SECURITY OF THE DATA IN <em>MOVEMENT</em></h2>
+                            <img src="assets/images/line-dec.png" alt="" />
+                            <p>is fourfold in that they:</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="features-items">
+                            <li class="feature-item">
+                                <div class="left-icon">
+                                    <img
+                                        src="assets/images/icon 1.png"
+                                        alt="First One"
+                                    />
+                                </div>
+                                <div class="right-content">
+                                    <h4>
+                                        Are translated into an unknown language
+                                    </h4>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="left-icon">
+                                    <img
+                                        src="assets/images/icon 2.png"
+                                        alt="second one"
+                                    />
+                                </div>
+                                <div class="right-content">
+                                    <h4>
+                                        Fade away if someone tries to intercept
+                                        them or if they reach a wrong
+                                        destination and
+                                    </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="features-items">
+                            <li class="feature-item">
+                                <div class="left-icon">
+                                    <img
+                                        src="assets/images/icon 3.png"
+                                        alt="fourth muscle"
+                                    />
+                                </div>
+                                <div class="right-content">
+                                    <h4>
+                                        Are written with unknown characters
+                                        using another unknown language
+                                    </h4>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="left-icon">
+                                    <img
+                                        src="assets/images/icon4.png"
+                                        alt="training fifth"
+                                    />
+                                </div>
+                                <div class="right-content">
+                                    <h4>
+                                        Are carried within a VPN that is itself
+                                        protected by the SST© system.
+                                    </h4>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p text align="center">
+                        For DATA in movement, it is the brain - which can be in
+                        the user's home - that receives the data sent to it by
+                        an Intelligent Agent, translates it into the translation
+                        and writing languages known by the recipient's
+                        Intelligent Agent and sends it to him.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- ***** Features Item End ***** -->
+
+        <section class="section" id="schedule" align="center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-12 col-xl-12">
+                        <div class="section-heading dark-bg">
+                            <h2>SST <em>Secure System Transmission</em></h2>
+                            <img src="assets/images/line-dec.png" alt="" />
+                            <p>
+                                For DATA in movement, it is the brain - which
+                                can be in the user's home - that receives the
+                                data sent to it by an Intelligent Agent,
+                                translates it into the translation and writing
+                                languages known by the recipient's Intelligent
+                                Agent and sends it to him.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-xl-4">
+                            <div class="trusted-section-heading">
+                                <img
+                                    src="assets/images/01 icon.png"
+                                    alt="image"
+                                    height="200"
+                                />
+                                <h5>
+                                    <font color="#FCFCFC"
+                                        ><strong
+                                            >Total Global Protection</strong
+                                        ></font
+                                    >
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-4">
+                            <div class="trusted-section-heading">
+                                <img
+                                    src="assets/images/02 icon.png"
+                                    alt="image"
+                                    height="200"
+                                />
+                                <h5>
+                                    <font color="#FCFCFC"
+                                        ><strong
+                                            >Protects all Passwords</strong
+                                        ></font
+                                    >
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-4">
+                            <div class="trusted-section-heading">
+                                <img
+                                    src="assets/images/03 icon.png"
+                                    alt="image"
+                                    height="200"
+                                />
+                                <h5>
+                                    <font color="#FCFCFC"
+                                        ><strong
+                                            >Can seal all transaction</strong
+                                        ></font
+                                    >
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-6">
+                            <div class="trusted-section-heading">
+                                <img
+                                    src="assets/images/04 icon.png"
+                                    alt="image"
+                                    height="200"
+                                />
+                                <h5>
+                                    <font color="#FCFCFC"
+                                        ><strong
+                                            >When used for a messaging service,
+                                            makes it E2E</strong
+                                        ></font
+                                    >
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-xl-6">
+                            <div class="trusted-section-heading">
+                                <img
+                                    src="assets/images/05 icon.png"
+                                    alt="image"
+                                    height="200"
+                                />
+                                <h5>
+                                    <font color="#FCFCFC"
+                                        ><strong
+                                            >Protects the content of telephone
+                                            conversations or video calls in the
+                                            same way</strong
+                                        ></font
+                                    >
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ***** Contact Us Area Starts ***** -->
+        <section class="section" id="contact-us">
+            <div class="container-fluid">
+                <div class="row">
                     <div class="contact-form col-xl-12">
                         <form id="contact" action="" method="post">
-                          <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Your Name*" required="">
-                              </fieldset>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input
+                                            name="name"
+                                            type="text"
+                                            id="name"
+                                            placeholder="Your Name*"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <fieldset>
+                                        <input
+                                            name="email"
+                                            type="text"
+                                            id="email"
+                                            pattern="[^ @]*@[^ @]*"
+                                            placeholder="Your Email*"
+                                            required=""
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <fieldset>
+                                        <input
+                                            name="subject"
+                                            type="text"
+                                            id="subject"
+                                            placeholder="Subject"
+                                        />
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <textarea
+                                            name="message"
+                                            rows="6"
+                                            id="message"
+                                            placeholder="Message"
+                                            required=""
+                                        ></textarea>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button
+                                            type="submit"
+                                            id="form-submit"
+                                            class="main-button"
+                                        >
+                                            Send Message
+                                        </button>
+                                    </fieldset>
+                                </div>
                             </div>
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email*" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="subject" type="text" id="subject" placeholder="Subject">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Message" required=""></textarea>
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Send Message</button>
-                              </fieldset>
-                            </div>
-                          </div>
                         </form>
                     </div>
                 </div>
             </div>
-    </section>
-    <!-- ***** Contact Us Area Ends ***** -->
-    
-    <!-- ***** Footer Start ***** -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; 2021 PT Sydeco
-					</p>
+        </section>
+        <!-- ***** Contact Us Area Ends ***** -->
+
+        <!-- ***** Footer Start ***** -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; 2021 PT Sydeco</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
+        <!-- jQuery -->
+        <script src="assets/js/jquery-2.1.0.min.js"></script>
 
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/js/popper.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- Plugins -->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    <script src="assets/js/mixitup.js"></script> 
-    <script src="assets/js/accordions.js"></script>
-    
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
+        <!-- Plugins -->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <script src="assets/js/waypoints.min.js"></script>
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="assets/js/imgfix.min.js"></script>
+        <script src="assets/js/mixitup.js"></script>
+        <script src="assets/js/accordions.js"></script>
 
-  </body>
+        <!-- Global Init -->
+        <script src="assets/js/custom.js"></script>
+    </body>
 </html>
